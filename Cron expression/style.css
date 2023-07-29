@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#frequencyDiv, #dayDiv, #weekDiv, #monthDiv {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#frequencyDiv label, #dayDiv label, #weekDiv label, #monthDiv label {
+    margin-right: 5px;
+}
+
+#frequencyDiv select, #dayDiv select, #weekDiv select, #monthDiv select {
+    margin-right: 5px;
+}
+
+#dayDiv, #weekDiv, #monthDiv {
+    display: none;
+}

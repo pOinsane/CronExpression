@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dom.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cron Expression</h1>
+    <div id="frequencyDiv">
+        <label for="frequency">Every</label>
+        <select id="frequency">
+            <option value="day">Day</option>
+            <option value="week">Week</option>
+            <option value="month">Month</option>
+        </select>
+    </div>
+
+    <div id="dayDiv">
+        at
+        <select id="dayHour"></select>
+        :
+        <select id="dayMinute"></select>
+    </div>
+
+    <div id="weekDiv">
+        on
+        <select id="weekDayOfTheWeek"></select>
+        at
+        <select id="weekHour"></select>
+        :
+        <select id="weekMinute"></select>
+    </div>
+
+    <div id="monthDiv">
+        on the
+        <select id="monthDayOfTheMonth"></select>
+        at
+        <select id="monthHour"></select>
+        :
+        <select id="monthMinute"></select>
+    </div>
+
+    <div id="cronResult">
+        Cron Expression: <span id="result"></span>
+    </div>
+</body>
+</html>
